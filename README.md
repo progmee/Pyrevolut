@@ -1,21 +1,24 @@
-# Revolut Merchant API Python Client
+# Pyrevolut
 
-A lightweight Python library to interact with the [Revolut Merchant API](https://developer.revolut.com/docs/merchant/pay-order).  
-It allows you to create, retrieve, and cancel orders, handle currencies correctly, and work in both sandbox and production environments.
+A lightweight Python library to interact with the Revolut Merchant API.
+
+This library provides a simple and intuitive interface to manage orders, handle currencies, and operate seamlessly in both sandbox and production environments.
 
 ---
 
 ## Features
 
-- **Client class**: Manage authentication and API requests.  
-- **Order class**: Create, retrieve, and cancel orders.  
-- **Currency support**: Uses `iso4217.Currency` for accurate minor unit conversion.  
-- **Error handling**: Custom exceptions (`RevolutAPIException`) for failed requests.  
-- **Sandbox & Production**: Easy switching between environments.  
+- **Client Class**: Manages authentication and API requests.
+- **Order Class**: Facilitates creating, retrieving, and canceling orders.
+- **Currency Support**: Utilizes `iso4217.Currency` for accurate minor unit conversion.
+- **Error Handling**: Custom exceptions (`RevolutAPIException`) for failed requests.
+- **Environment Support**: Easily switch between sandbox and production environments.
 
 ---
 
 ## Installation
 
+Install via pip:
+
 ```bash
-pip install iso4217 requests
+pip install pyrevolut
